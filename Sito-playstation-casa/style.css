@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(255, 0, 0);
+    
+}
+
+.sony-bar{
+    width: 100%;
+    position: absolute;
+    margin-top: 100px;
+    margin-right: 10px;
+    display: flex;
+   }
+
+img {
+    width: 130px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+    display: flex;
+}
+
+nav{
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    width: 100px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    display: flex;
+    align-items: center;
+
+
+}
+
+ ul {
+     padding: 0;
+     margin: 0 0 0 150px;
+     list-style: none;
+     display: flex;
+     align-items: center;
+ }
+
+ li{
+     float: left;
+ }
+
+ nav a:hover{
+     color:black;
+     transition: 0.5s;
+ }
+
+.accedi{
+    border-radius: 50px;
+    border-bottom: none;
+    padding: 0 15px;
+    margin: auto;
+    background-color: rgb(80, 80, 245);
+}
+
+
+ .fa-magnifying-glass{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    padding: 5px;
+    align-items: center;
+    display: flex;
+ }
+ 
+ button{
+    background-color: white;
+    border: none; 
+    border-width : 0; 
+    border : 0 properties;
+ }
