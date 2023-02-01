@@ -1,17 +1,44 @@
-.logo-sony{
-    background-color: black;
+.logo-sony {
+    background-color: #000;
     min-height: 36px;
     width: 100%;
     display: flex;
-    justify-content: flex-end; 
+    justify-content: flex-end;
 }
 
-.logo-sony img{
-    max-width: 50%;
-    max-height: 20px;
-    display: flex;
-    ;
+.logo-sony img {
+    max-width: 75px;
 }
+
+.fa-playstation{
+    font-size: 32px;
+    margin-left: 30px;
+   margin-right: 22px;
+}
+
+.navbar-expand-lg {
+    flex-wrap: wrap;
+}
+
+.search-button {
+    order: 1;
+    margin-right: 45px;
+}
+
+.accedi{
+    border-radius: 50px;
+    border-bottom: none;
+    padding: 0 15px;
+    margin: auto;
+    background-color: rgb(80, 80, 245);
+}
+
+button{
+    background-color: white;
+    border: none; 
+    border-width : 0; 
+    border : 0 properties;
+ }
 
 .carousel-inner{
     padding-bottom: 200px;
