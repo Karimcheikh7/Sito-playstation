@@ -33,6 +33,10 @@
     background-color: rgb(80, 80, 245);
 }
 
+.accedi:hover{
+    background-color: blue;
+}
+
 button{
     background-color: white;
     border: none; 
@@ -81,16 +85,17 @@ button{
 }
 
 .plus-text img{
-    width: 484px;
-    height: 416px;
+    width: 510px;
+    height: 460px;
 }
 
 img.image-plus1 {
-    margin-left: 380px;
+    margin-left: 250px;
+    margin-top: -25px;
 }
 
 img.image-plus2 {
-    margin-left: 256px;
+    margin-left: 195px;
     margin-top: 110px;
 }
 
@@ -103,11 +108,53 @@ img.image-plus2 {
     margin-left: 200px;
     color: white;
     height: 40px;
+    margin-top: 15px;
+}
+
+.plus-button:hover{
+    outline-offset: 3px;
+    outline: 3px solid rgb(80, 80, 225);
 }
 
 p {
-    margin-top: 0;
+    margin-top: 30px;
     margin-bottom: 1rem;
     margin-left: 200px;
 }
 
+.god-background{
+    position: relative;
+}
+
+.god-logo {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 50px;
+    flex-direction: column;
+}
+
+.god-image1{
+    width: 1665px;
+}
+
+.god-image2{
+width: 400px;
+}
+
+.god-button{
+    border-radius: 50px;
+    border-bottom: none;
+    padding: 0 15px;
+    margin: auto;
+    background-color: orangered;
+    margin-left: 200px;
+    color: white;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.god-button:hover{
+    outline-offset: 3px;
+    outline: 3px solid orangered;
+}
