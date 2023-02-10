@@ -1,0 +1,15 @@
+.hogwarts-background{
+    position: relative;
+}
+
+.hogwarts-logo{
+    position: absolute;
+    top: 0;
+}
+
+img.image-hog1 {
+    height: 443px;
+    width: 1665px;
+    object-fit: cover;
+}
+
